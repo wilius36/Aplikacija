@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingRight="15dp"
+    android:paddingLeft="15dp"
+    android:paddingTop="15dp">
+
+    <TextView
+        android:id="@+id/sectionName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Balta"
+        android:text="Politika"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Balta"
+        android:text="Antraštė"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/sectionName"
+        android:textSize="19sp"/>
+
+    <TextView
+        android:id="@+id/webPublicationDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2014-02-17T12:05:47Z"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/title"
+        android:textSize="13sp"/>
+
+    <View
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/webPublicationDate"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#FFF"
+        android:orientation="vertical" />
+
+</RelativeLayout>
